@@ -8,4 +8,6 @@ const router = express.Router();
 
 router.get('/' , shopController.getCustomers);
 
+
+
 module.exports = router;
