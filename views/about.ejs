@@ -1,27 +1,112 @@
+
 <%- include('../includes/header.ejs') %>
 </head>
-
 <body>
+  <header>
+    <!-- Header Start -->
     <%- include('../includes/navigation.ejs') %>
-
-    <h1>HI Welcome To SK TAILOR Shop !!</h1>
-    <p> We're working on it .. Sorry for inconvenience</p>
-
-   <!-- Trigger/Open The Modal -->
-<button id="myBtn">Customers</button>
-
-<!-- The Modal -->
-<div id="myModal" class="modal">
-
-  <!-- Modal content -->
-  <div class="modal-content">
-    <span class="close">&times;</span>
-    <label > Enter Customer Name</label>
-    <input type="text" name="custName" id="custName" >
-    <button type="submit"> Search </button>
-  </div>
-
+    <!-- Header End -->
+  </header>
+  <main>
+    <!--? slider Area Start-->
+    <div class="slider-area position-relative">
+        <div class="slider-active">
+            <!-- Single Slider -->
+            <div class="single-slider position-relative hero-overly slider-height2  d-flex align-items-center" data-background="/img/hero/h1_hero.png">
+                <div class="container">
+                 <div class="row">
+                     <div class="col-xl-6 col-lg-6">
+                        <div class="hero-caption hero-caption2">
+                            <img src="/img/hero/hero-icon.png" alt="" data-animation="zoomIn" data-delay="1s">
+                            <h2 data-animation="fadeInLeft" data-delay=".4s">About us</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
-
-
-<%- include('../includes/footer.ejs') %>
+<!-- slider Area End-->
+<!--? Visit Our Tailor Start -->
+<section class="visit-tailor-area fix mt-margin">
+    <!--Right Contents  -->
+    <div class="tailor-offers"></div>
+    <!-- left Contents -->
+    <div class="tailor-details">
+        <h2>About <br>Sk Tailor</h2>
+        <p class="pera-top">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
+        <p class="pera-bottom">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+            Suspendisse varius enim in eros elementum tristique. Duis 
+        cursus, mi quis viverra ornare.</p>
+        <a href="#" class="btn">More About Us</a>
+    </div>
+</section>
+<!-- Visit Our Tailor End -->
+<!--? Services Area Start -->
+<section class="categories-area section-padding40">
+    <div class="container">
+        <!-- section Tittle -->
+        <div class="row justify-content-center">
+            <div class="col-xl-6 col-lg-6 col-md-7 col-sm-9">
+                <div class="section-tittle text-center mb-60">
+                    <h2>Why use our service?</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="single-cat mb-50 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">
+                    <div class="cat-icon">
+                        <img src="/img/icon/services1.svg" alt="">
+                    </div>
+                    <div class="cat-cap">
+                        <h5>Tailor Sweing</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="single-cat mb-50 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">
+                    <div class="cat-icon">
+                        <img src="/img/icon/services2.svg" alt="">
+                    </div>
+                    <div class="cat-cap">
+                        <h5>Tailor Sweing</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="single-cat mb-50 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
+                    <div class="cat-icon">
+                        <img src="/img/icon/services3.svg" alt="">
+                    </div>
+                    <div class="cat-cap">
+                        <h5>Tailor Sweing</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="single-cat mb-50 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
+                    <div class="cat-icon">
+                        <img src="/img/icon/services4.svg" alt="">
+                    </div>
+                    <div class="cat-cap">
+                        <h5>Tailor Sweing</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--? Services Area End -->
+</main>
+   
+<footer>
+  <!-- Footer Start -->
+    <%- include('../includes/footer.ejs') %>
+  <!-- Footer End -->
+</footer>
